@@ -1,0 +1,32 @@
+header{
+    padding: 30px 0;
+    ul{
+        display: flex;
+        align-items: center;
+        gap: 18px;
+        li{
+            list-style: none;
+            text-transform: uppercase;
+            font-size: 16px;
+            font-weight: 600;
+            position: relative;
+        &:hover{
+            color: #0C7CEC;
+            &:after {
+                // elemento usato per creare il bordo fittizio da inserire
+                content: "";
+                position: absolute;
+                left: 0;
+                bottom: -40px; // Distanza dal bordo inferiore
+                // lunghezza del bordo
+                width: 100%;
+                // altezza
+                height: 3px;
+                background-color: #0282F9; // Colore del bordo inferiore
+            }
+        }
+
+        }
+    }
+
+}

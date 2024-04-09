@@ -10,6 +10,7 @@
 <body>
 <!-- @yield('content'); -->
 @include('partials/header')
+@include('partials/jumbotron')
 
     
 </body>

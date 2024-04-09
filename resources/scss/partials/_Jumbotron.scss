@@ -1,0 +1,23 @@
+@use '../variables/variables' as *;
+#Jumbotron{
+    height: 400px;
+    width: 100%;
+    background-image: url(/resources/img/jumbotron.jpg);
+    background-size: cover;
+    .container{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        h2{
+            position: absolute;
+            bottom: -30px;
+            left: 0;
+            color: white;
+            background-color: $blue_text;
+            text-transform: uppercase;
+            padding: 15px 30px;
+            
+            margin-bottom: 0;
+        }
+    }
+}

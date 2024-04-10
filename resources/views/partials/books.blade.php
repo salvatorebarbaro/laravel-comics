@@ -5,7 +5,7 @@
             @foreach($fumetti as $fumetto)
             <div id="card">
              <img src="{{$fumetto['thumb']}}" alt="" class="">   
-            
+            <!-- abbiamo inserirot il nome della rotta per la pagina seguente -->
             <a href="fumetto" class=" text-white ">{{$fumetto['title']}}</a>
                 
             </div>

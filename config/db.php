@@ -109,5 +109,47 @@ return [
         "sale_date" => "2019-04-10",
         "type" => "graphic novel",
     ]
-];
+    ]
 
+;
+
+
+
+return[
+   'autori'=>[
+    "José Luis García-López",
+    "Clay Mann",
+    "Rafael Albuquerque",
+    "Patrick Gleason",
+    "Dan Jurgens",
+    "Joe Shuster",
+    "Neal Adams",
+    "Curt Swan",
+    "John Cassaday",
+    "Olivier Coipel",
+    "Jim Lee",
+    "Scott Williams",
+    "George Pérez",
+    "Jerry Ordway",
+    "Mike Wieringo",
+    "Phil Jimenez",
+    "Ivan Reis",
+    "Gary Frank",
+    "Andy Kubert",
+    "Adam Hughes",
+    "Frank Quitely",
+    "Matt Wagner",
+    "Dave Gibbons",
+    "Alan Moore",
+    "Grant Morrison",
+    "Marv Wolfman",
+    "Len Wein",
+    "Denny O'Neil",
+    "Elliot S! Maggin",
+    "Julius Schwartz",
+    "Mort Weisinger",
+    "Whitney Ellsworth",
+    "Jerry Siegel",
+    "Joe Shuster"
+]
+] ;

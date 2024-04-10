@@ -1,0 +1,82 @@
+@use '/resources/scss/variables/variables' as *;
+.contenitore_specifiche{
+    display: flex;
+    justify-content: center;
+    background-color: #F6F6F6;
+    height: 375px;
+    #contenitore_elementi{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 28px;
+        width: 100%;
+        align-items: center;
+        #element_head{
+            display: flex;
+            gap: 50px;
+            max-width: 1024px;
+            width: 100%;
+            h3{
+                // text-transform: uppercase;
+                color: #003F5E;
+                // border-bottom: 1px solid black;
+                padding-bottom: 30px;
+            }
+            #Container_talent{
+                display: flex;
+                flex-direction: column;
+                width: 50%;
+                .contenitore{
+                    display: flex;
+                    padding: 12px 0;
+                    justify-content: space-between;
+                }
+                .identity{
+                    // text-transform: uppercase;
+                    color: #003F5E;
+                    font-weight: 400;
+                }
+                .Series{
+                    border-top: 1px solid $bordi;
+                    border-bottom: 1px solid $bordi;
+                }
+                .bordo{
+                    border-bottom: 1px solid $bordi;
+                }
+                #container_art{
+                    gap: 10%;
+                }
+                .disastro{
+                    font-size: 10px;
+                }
+            }
+            #Container_Specs{
+                display: flex;
+                flex-direction: column;
+                width: 50%;
+                .contenitore{
+                    display: flex;
+                    padding: 12px 0;
+                    justify-content: space-between;
+                }
+                .Series{
+                    border-top: 1px solid $bordi;
+                    border-bottom: 1px solid $bordi;
+                }
+                .identity{
+                    // text-transform: uppercase;
+                    color: #003F5E;
+                    font-weight: 400;
+                }
+                #tipo{
+                    margin-right: 30%;
+                }
+                .bordo{
+                    border-bottom: 1px solid $bordi;
+                }
+
+            }
+
+        }
+    }
+}

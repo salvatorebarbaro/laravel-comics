@@ -28,6 +28,10 @@ Route::get('/fumetto' , function (){
 
     $signleFumetto = $fumetti[0];
 
+    
+
+    // dd($nomi);
+
     //riprova di quali dati stiamo riportando in pagina
     // dd($signleFumetto);
 

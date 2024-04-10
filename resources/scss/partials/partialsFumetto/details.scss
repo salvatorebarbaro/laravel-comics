@@ -1,0 +1,87 @@
+#container{
+    padding: 78px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    #container_details{
+        display: flex;
+        gap: 40px;
+        #container_elements{
+            display: flex;
+            flex-direction: column;
+            max-width: 680px;
+            h2{
+                color: #003F5E;
+                font-weight: 600;
+                text-transform: uppercase;
+                margin-bottom: 30px;
+            }
+            #section_green{
+                background-color: #55BA59;
+                // padding: 16px;
+                color: #BAFD93;
+                display: flex;
+                #section_price{
+                    display: flex;
+                    justify-content: space-between;
+                    font-weight: 500;
+                    border-bottom:1px solid #357739 ;
+                    border-right:1px solid #357739 ;
+                    width: 80%;
+                    padding: 16px;
+                    #section_price_inside{
+                        display: flex;
+                        span{
+                            text-transform: uppercase;
+
+                        }
+                        #price{
+                            color: white;
+                        }
+                    }
+                    #disponibility{
+                        text-transform: uppercase;
+                        color:#BAFD93 ;
+                    }
+                }
+                #check_aviability{
+                    // width: 20%;
+                    display: flex;
+                    align-items: center;
+                    padding: 0 24px;
+                    border-bottom:1px solid #357739 ;
+                    .dropdown{
+                        button{
+                            border: 0;
+                            padding: 0;
+                            width: 100%;
+                            // text-transform: uppercase;
+                            color:white ;
+                            background-color:#55BA59 ;
+                            font-weight: 600;
+                        }
+
+                    }
+                }
+            }
+            p{
+                margin-top: 22px;
+                color:#605A55;
+            }
+
+        }
+        #section_adv{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            span{
+                text-transform: uppercase;
+                margin-bottom: 0.6em;
+                font-weight: 700;
+                font-size: 16px;
+                color: #555555;
+
+            }
+        }
+    }
+}

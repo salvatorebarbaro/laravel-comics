@@ -1,0 +1,43 @@
+@use '/resources/scss/variables/variables' as *;
+
+.sfondo{
+    background-color: $blue_text;
+    height: 80px;
+    position: relative;
+    #container_img{
+        height: 280px;
+        width: 200px;
+        position: absolute;
+        top: -230px;
+        left: 300px;
+        #container_elementi{position: relative;
+           img{
+            width: 100%;
+            height: 100%;
+            
+        } 
+        span{
+            // position: absolute;
+            text-transform: uppercase;
+            color: white;
+            font-weight: 500;
+            font-size: 14px;
+            background-color: $sfondo_fumetto;
+            padding: 5px;
+        }
+        span.primo{
+            position:absolute;
+            top: 0;
+            left: 0;
+        }
+        span.secondo{
+            position:absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            text-align: center;
+        }
+        }
+        
+    }
+}

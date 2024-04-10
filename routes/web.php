@@ -14,5 +14,23 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    //con la funzione config noi andiamo ad importare l'arry di oggetti presenti nel nostro database
+    $fumetti = config("db");
+
+    // dd($fumetti);
+    //funzione per restituire i valori in pagina di fumetti compact
+    return view('home',compact('fumetti'));
 })->name('home');
+
+Route::get('/fumetto' , function (){
+    //mi passo l'array di oggetti riguardante i fumetti , tutto cio tramite config
+    $fumetti = config("db");
+
+    $signleFumetto = $fumetti[0];
+
+    //riprova di quali dati stiamo riportando in pagina
+    // dd($signleFumetto);
+
+    return view('fumetto', compact('signleFumetto'));
+})->name('fumetto');
+
